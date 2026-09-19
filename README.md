@@ -1,8 +1,4 @@
-# 📱 ComMobi-Tracker
-
-### 📄 PROTOTYPE PROOF OF CONCEPT DOCUMENT
-**Project:** ComMobi-Tracker  
-**Institutional Partners:** MINPROFF (Ministry of Women's Empowerment and the Family) / UNICEF Cameroon
+### 📱 ComMobi-Tracker
 
 ---
 
@@ -11,7 +7,7 @@
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 ### 1. Mobile Interface & Facilitator Onboarding
 The application features a clean dashboard designed for quick and intuitive use on the ground:
@@ -21,9 +17,8 @@ The application features a clean dashboard designed for quick and intuitive use 
 * **Simplified Navigation:** A bottom navigation bar provides one-click access to *Families*, *Support Groups (GSP)*, *Map*, and *Settings*.
 
 <div align="center">
-  <img src="images/interface_dashboard.png" width="31%" alt="Dashboard View" />
-  <img src="images/interface_alerts.png" width="31%" alt="Alert Banner View" />
-  <img src="images/interface_navigation.png" width="31%" alt="Navigation Menu" />
+  <img src="images/interface1.png" width="31%" alt="Dashboard View" />
+  <img src="images/interface2.png" width="31%" alt="Alert Banner View" />
 </div>
 
 ### 2. Individual Household Tracking & Offline-First Collection
@@ -34,9 +29,8 @@ Family management operates on a personalized support model with fully functional
 * **Administrative Mapping:** Rigorous family classification by Region, Division, and Sub-division.
 
 <div align="center">
-  <img src="images/tracking_portfolio.png" width="31%" alt="Family Portfolio" />
-  <img src="images/tracking_profile.png" width="31%" alt="Household Profile" />
-  <img src="images/tracking_gps_form.png" width="31%" alt="GPS Registration Form" />
+  <img src="images/interface3" width="31%" alt="Family Portfolio" />
+  <img src="images/interface4" width="31%" alt="Household Profile" />
 </div>
 
 ### 3. Educational Modules & Community Session Facilitation
@@ -47,9 +41,9 @@ To ensure contextualized awareness training, the app embeds the full facilitator
 * **GSP Community Session Reports:** Gender-disaggregated participant counting, automated male participation index calculation, and field photo proof attachment.
 
 <div align="center">
-  <img src="images/modules_list.png" width="31%" alt="10 Educational Modules" />
-  <img src="images/modules_tts.png" width="31%" alt="Voice Assistance Interface" />
-  <img src="images/modules_gsp_report.png" width="31%" alt="GSP Session Reporting" />
+  <img src="images/interface5.png" width="31%" alt="10 Educational Modules" />
+  <img src="images/interface6.png" width="31%" alt="Voice Assistance Interface" />
+  <img src="images/interface7.png" width="31%" alt="GSP Session Reporting" />
 </div>
 
 ### 4. GIS Mapping & Rapid Alert Response
@@ -59,52 +53,37 @@ An interactive mapping module helps field agents and regional delegates visualiz
 * **Location Filtering:** Targeted data views based on the user's exact area (e.g., Maroua, Mabanda).
 
 <details>
-  <summary>📸 Click to expand mapping screenshots (3 views)</summary>
+  <summary> Click to expand mapping screenshots (3 views)</summary>
   <br>
   <p align="center">
-    <img src="images/map_satellite_view.png" width="90%" alt="Satellite Cluster Map" /><br><br>
-    <img src="images/map_alert_popup.png" width="90%" alt="Emergency Intervention Form" /><br><br>
-    <img src="images/map_zone_filter.png" width="90%" alt="Regional Filter View" />
+    <img src="images/interface8.png" width="90%" alt="Satellite Cluster Map" /><br><br>
+    <img src="images/interface9.png" width="90%" alt="Emergency Intervention Form" /><br><br>
   </p>
 </details>
 
 ---
 
-## 🌍 Inclusion, Accessibility & Bilingualism
+##  Inclusion, Accessibility & Bilingualism
 Built to meet digital accessibility standards and respect the national linguistic context of Cameroon:
 * **Instant Bilingualism:** Seamless toggle of the entire interface between **English** and **French**.
 * **High Contrast Mode:** Color inversion (black background with yellow outlines) for high-sunlight readability and low-vision users.
 * **Accessibility Settings:** Dynamic font size adjustments and Text-to-Speech screen reading options for visually impaired field agents.
 
 <div align="center">
-  <img src="images/access_bilingual_toggle.png" width="31%" alt="Language Switch" />
-  <img src="images/access_high_contrast.png" width="31%" alt="High Contrast Mode" />
-  <img src="images/access_font_scaling.png" width="31%" alt="Dynamic Font Scaling" />
+  <img src="images/interface10.png" width="31%" alt="Language Switch" />
 </div>
 
 ---
 
-## 📊 Strategic Decision Dashboard (Power BI)
+##  Strategic Decision Dashboard (Power BI)
 A centralized business intelligence platform for **MINPROFF** and **UNICEF** managers to track program impact in real time:
 * **Performance Indicators (KPIs):** Live tracking of accompanied families, completed community sessions, and adoption rates of non-violent discipline.
 * **Consolidated Regional Mapping:** Spatial analysis across regional clusters (*Littoral, Centre, Far-North*) powered by Azure Maps.
 * **Trend Analysis:** Comparative charts monitoring the decline of corporal punishment against the rise of positive reinforcement.
 * **Confidential Registry & Exports:** Secure tracking of sensitive alerts (early marriage, neglect) with quick data exports to **PDF, Excel, and CSV** for official reporting.
 
-<details>
-  <summary>📸 Click to expand Power BI analytics dashboards (3 views)</summary>
-  <br>
-  <p align="center">
-    <img src="images/dashboard_main_kpis.png" width="90%" alt="Main Program KPIs" /><br><br>
-    <img src="images/dashboard_regional_clusters.png" width="90%" alt="Azure Maps Spatial Analysis" /><br><br>
-    <img src="images/dashboard_trend_analytics.png" width="90%" alt="Trend Charts & Secure Exports" />
-  </p>
-</details>
+  <div align="center">
+    <img src="images/interface11.png" width="90%" alt="Main Program KPIs" /><br><br>
+  </div>
 
 ---
-
-## 🛠️ How to Add Your Screenshots
-To ensure your pictures appear flawlessly in these grids, follow these steps:
-1. In your project's root folder, create a directory called `images`.
-2. Save your screenshots into that folder.
-3. Rename your image files to match the filenames inside the `src="..."` tags exactly (e.g., save your dashboard image as `interface_dashboard.png`).
