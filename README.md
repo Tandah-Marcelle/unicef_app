@@ -3,7 +3,7 @@
 ---
 
 ## 📝 Project Overview
-**ComMobi-Tracker** is a mobile application and decision-making dashboard designed for field facilitators and institutional leaders in Cameroon. It streamlines household tracking, promotes positive parenting, supports community sessions, and enables rapid child protection alert reporting—even in areas with low connectivity.
+**ComMobi-Tracker** is a mobile application and decision-making dashboard designed for field facilitators and institutional leaders in Cameroon. It streamlines household tracking, promotes positive parenting, supports community sessions, and enables rapid child protection alert reporting even in areas with low connectivity.
 
 ---
 
@@ -29,8 +29,8 @@ Family management operates on a personalized support model with fully functional
 * **Administrative Mapping:** Rigorous family classification by Region, Division, and Sub-division.
 
 <div align="center">
-  <img src="images/interface3" width="31%" alt="Family Portfolio" />
-  <img src="images/interface4" width="31%" alt="Household Profile" />
+  <img src="images/interface3.png" width="31%" alt="Family Portfolio" />
+  <img src="images/interface4.png" width="31%" alt="Household Profile" />
 </div>
 
 ### 3. Educational Modules & Community Session Facilitation
